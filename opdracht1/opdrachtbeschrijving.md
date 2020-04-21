@@ -21,7 +21,7 @@ Kies een van de Use Cases, schets eerst een ontwerp voor de interactie. Codeer i
 ## Criteria
 1. De uitwerking van je ontwerp moet het doen in een browser en device naar keuze.
 2. De [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) nr 04 & 11 zijn goed toegepast.
-3. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op [Github](https://github.com).
+3. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github. Leg de code uit. 
 
 ## Resources
 
