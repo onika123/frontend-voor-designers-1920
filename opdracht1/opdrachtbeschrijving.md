@@ -36,7 +36,7 @@ Kies een van de Use Cases, schets eerst een ontwerp voor de interactie. Codeer i
 ### Volgende stap
 
 - Dit is een goede uitleg van [Drag & Drop](https://developer.mozilla.org/en-US/docs/Web/API/Document/drag_event). Handig voor Use case 3.
-- Met [QuerySelectAll ](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) kun je gebruiken om  meerdere elementen te selecteren. Handig voor de 4e use case.
+- Met [QuerySelectAll ](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) kun je niet een maar meerdere elementen selecteren. Handig voor de 4e use case.
 
 
 Voor wat complexere micro-interacties waar verschillende states elkaar moeten opvolgen kun je aan het eind van een transition of animation weer iets laten gebeuren. Gebruik hiervoor in Javascript de:
