@@ -8,7 +8,8 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 # Project titel
 Ik heb gekozen voor het project dat je een film kan bewaren voor later.
 Project is gemaakt voor een Iphone x, op google chrome
-Link: https://onika123.github.io/frontend-voor-designers-1920/opdracht1/
+Link: https://onika123.github.io/frontend-voor-designers-1920/opdracht1/alles/index.html
+
 
 
 ## interface
