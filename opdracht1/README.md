@@ -25,6 +25,8 @@ Onderaan een button om de film te 'liken'. Bovenin een gevuld hartje, zodra je e
 
 ## code
 HTML: Niks bijzonders
+
 CSS: Ik ben begonnen met het stylen van de pagina hierover heb ik niet veel te vertellen. Vervolgens heb ik de popup gestyled maar nog niet visible gemaakt. Deze wordt aangeroepen met de functie op javascript. 
+
 JS: 1st variabelen aangemaakt, vervolgens de button een eventlistener voor een functie met click gegeven. Vervolgens de functie uitlegd, dat de image moet veranderen en de pop up 'show'
 
