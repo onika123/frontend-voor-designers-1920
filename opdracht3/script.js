@@ -38,32 +38,35 @@ function showMovies(jsonObj) {
     for (var i = 0; i < jsonObj.length; i++) {
         //html elementen aanmaken
         var myArticle = document.createElement('article');
+        
+        //hier aan het article een class met genre toevoegen
+        myArticle.setAttribute('class',jsonObj[i].genres[0])
 
         //h2 element aanmaken en json data koppelen
         var myH2 = document.createElement('h2');
         myH2.textContent = jsonObj[i].title;
 
         //paragraaf aanmaken en json data koppelen
-        var genre = document.createElement('p');
+        var genre = document.createElement('genre');
         genre.textContent = jsonObj[i].genres;
 
         //paragraaf aanmaken en json data koppelen
-        var imdbRating = document.createElement('p');
+        var imdbRating = document.createElement('imdbRating');
         imdbRating.textContent = jsonObj[i].imdbRating;
 
         //img aanmaken en json data koppelen
         var plaatje = document.createElement('img')
         plaatje.src = jsonObj[i].posterurl;
 
-        var like = document.createElement ('button')
-        like.textContent= document.getElementById('button')
+      
             
         //html element nesten
         myArticle.appendChild(myH2);
+        myArticle.appendChild(imdbRating)
         myArticle.appendChild(genre);
         myArticle.appendChild(plaatje);
-        myArticle.appendChild(imdbRating)
-        myArticle.appendChild(like)
+        
+       
 
         //nieuwe html elementen aan de section in de html gekoppeld
         section.appendChild(myArticle);
@@ -95,21 +98,22 @@ function back() {
 
 
 
-
-
-
-////function filter() {
-//if (document.getElementById("dropdowngenres").value === 'Actie') {
+function filter() {
+if (document.getElementById("dropdowngenres").value === 'Actie') {
 //    if (jsonObj[i].genres === 'action') {
 //        console.log(jsonObj['genres'])
 //    }
-//
-//
-//} else if (document.getElementById("dropdowngenres").value === 'Drama') {
-//    console.log('drama')
-//} else if (document.getElementById("dropdowngenres").value = 'Comedy') {
-//    console.log('comedy')
-//} else if (document.getElementById("dropdowngenres").value = 'romance') {
-//    console.log('romance')
-//}
-//
+
+
+} else if (document.getElementById("dropdowngenres").value === 'Drama') {
+    console.log('drama')
+} else if (document.getElementById("dropdowngenres").value = 'Comedy') {
+    console.log('comedy')
+} else if (document.getElementById("dropdowngenres").value = 'romance') {
+    console.log('romance')
+}
+    var movies = document.querySelectorAll('.Action')
+    console.log('movies', movies)
+    
+}
+
