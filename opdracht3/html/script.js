@@ -98,22 +98,44 @@ function back() {
 
 
 
-function filter() {
-if (document.getElementById("dropdowngenres").value === 'Actie') {
+//function filter() {
+//if (document.getElementById("dropdowngenres").value === 'Actie') {
 //    if (jsonObj[i].genres === 'action') {
 //        console.log(jsonObj['genres'])
 //    }
+//
+//
+//} else if (document.getElementById("dropdowngenres").value === 'Drama') {
+//    console.log('drama')
+//} else if (document.getElementById("dropdowngenres").value = 'Comedy') {
+//    console.log('comedy')
+//} else if (document.getElementById("dropdowngenres").value = 'romance') {
+//    console.log('romance')
+//}
+//    var movies = document.querySelectorAll('.Action')
+//    console.log('movies', movies)
+//    
+//}
 
 
-} else if (document.getElementById("dropdowngenres").value === 'Drama') {
-    console.log('drama')
-} else if (document.getElementById("dropdowngenres").value = 'Comedy') {
-    console.log('comedy')
-} else if (document.getElementById("dropdowngenres").value = 'romance') {
-    console.log('romance')
+// keypress 
+document.addEventListener('keydown', pressTerug);
+document.addEventListener('keydown', pressVerder);
+
+// functie voor pijltje >
+function pressTerug() {
+    if (event.keyCode == 39) {
+        count -= 332;
+        // section van de img transformeert elke keer +332 px
+        moviecarousel.style.transform = `translateX(${count}px)`;
+    }
 }
-    var movies = document.querySelectorAll('.Action')
-    console.log('movies', movies)
-    
-}
 
+// functie voor pijltje <
+function pressVerder() {
+    if (event.keyCode == 37) {
+        count += 332;
+        // section van de img transformeert elke keer +332 px
+        moviecarousel.style.transform = `translateX(${count}px)`;
+    }
+}
