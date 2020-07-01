@@ -9,7 +9,7 @@ Lees hier de [opdrachtbeschrijving](./opdrachtbeschrijving.md).
 Dit project is een slideshow met de movies in theater uit het jaar 2018. De data die hierbij is gebruikt is ingeladen json data. 
 Je kan je door de films heen scrollen d.m.v. de back en next button.
 
-Link:https://onika123.github.io/frontend-voor-designers-1920/opdracht3/
+Link:https://onika123.github.io/frontend-voor-designers-1920/opdracht3/html/index.html
 
 Wat ik wou doen maar niet is gelukt: 
 
